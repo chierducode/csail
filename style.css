@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background-color: #414141;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 3%;
+}
+
+h2 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li:before{
+    content: "- ";
+}
+
+hr {
+    margin: auto;
+    width: 600px;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+a {
+    color: rgb(104, 189, 218);
+    text-transform: none;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: rgb(104, 189, 218);
+}
+
+footer { 
+    text-align: center; 
+    color: white;
+
+}
+
+footer a{
+    text-transform: none;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: rgb(104, 189, 218);
+    color: #414141!important;
+}
+
+.inbetween:before {
+    content : "|";
+}
+
+.content {
+    font-size: 105%;
+    margin-top: 25px;
+    color: lightgray;
+    text-align: left;
+    line-height: 150%;
+}
+
+.content a:hover{
+    background-color: rgb(104, 189, 218);
+    color: #414141!important;
+}
+
+.h1plus {
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.navbar{
+    text-align: center; 
+    font-family:Source Code Pro;
+    background-color: #A2FF45;
+    letter-spacing:0.5px;
+}
+
+.navbar a {
+    color:black;
+}
+
+.navbar a:hover{
+        background-color: white;
+    }
+
+    
